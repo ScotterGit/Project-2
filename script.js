@@ -2,8 +2,7 @@ $( document ).ready(function() {
   console.log( "ready!" );
 
 $('#search-button').on('click', () => {
-  // console.log('i was clicked')
-  // console.log($('#search-field').val());
+
   let searchTerm = $('#search-field').val();
 
   console.log(searchTerm);
@@ -12,13 +11,6 @@ $('#search-button').on('click', () => {
 
 
     $.get(url, function(giphyResponse) {
-      // console.log(giphyResponse);
-      // console.log('giphyData', giphyResponse.data)
-      // console.log('giphyData result 0 (1st result)', giphyResponse.data[0]);
-      // console.log('giphyData result 0 (1st result) - all images list', giphyResponse.data[0].images);
-      // console.log('giphyData result 0 (1st result) - all images list - original image', giphyResponse.data[0].images.original);
-
-      // console.log('giphyData result 0 (1st result) - all images list - original image - url', giphyResponse.data[0].images.original.url);
 
     let resultsHtml = '';
 

@@ -1,34 +1,45 @@
 body {
-    background-color: rgb(29,29,29);
-  }
-  
-  hr{
-    height: 3px;
-    background-color: #ccc;
-    border: none;      
-  }
+	background-color: rgb(29, 29, 29);
+	border-color: rgb(29, 29, 29);
+}
+
+hr {
+	height: 3px;
+	background-color: #ccc;
+	border: none;
+}
 
 /* @media (max-width: @screen-sm){
     .container{font-size: 2px;}
 } */
 
-  #search-button{
-    color: white;
-  }
-  
-  #search-button:hover {
-    background-color: rgb(77, 247, 238);
-    color: black;
-  }
-  
-  #search-results {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content:flex-end;
-    align-items: flex-end;
-    resize: horizontal;
-    overflow: auto;
-    flex-wrap: wrap;
-  }
-  
+#search-button {
+	color: white;
+	border-color: aqua;
+}
+
+#search-button:hover {
+	background-color: rgb(77, 247, 238);
+	color: black;
+}
+
+/* #search-results {
+	display: flex;
+	flex-wrap: wrap;
+} */
+
+#search-results {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: flex-end;
+	align-items: flex-end;
+	resize: horizontal;
+	overflow: auto;
+	flex-wrap: wrap;
+}
+
+#search-results > * {
+	padding: 10px;
+	height: 400px;
+}
