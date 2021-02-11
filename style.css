@@ -13,9 +13,14 @@ hr {
     .container{font-size: 2px;}
 } */
 
+.search > * {
+	margin: 8px;
+	border-radius: 5px;
+}
+
 #search-button {
 	color: white;
-	border-color: aqua;
+	border: white solid 1px;
 }
 
 #search-button:hover {

@@ -18,6 +18,7 @@
   </head>
   <body>
 
+   
 <div class="jumbotron jumbotron-fluid bg-primary" style="background-color: #3EECAC;
 background-image: linear-gradient(0deg, #3EECAC 0%, #EE74E1 50%, #fcba03 100%)">
   <div class="container">
@@ -28,19 +29,19 @@ background-image: linear-gradient(0deg, #3EECAC 0%, #EE74E1 50%, #fcba03 100%)">
   </div>
 </div>
 
-<div class="grid grid-cols-12 gap-1">
-      <input type='text' id="search-field" class="col-span-8 offset-4 md:col-start-4 md:col-end-6"></input>
-    <button id="search-button" class="rounded-med col-span-8 offset-4 md:col-start-6 md:col-end-8">Search</button>
+
+<div class="search grid grid-cols-12" style="margin-bottom: 10px">
+    <!-- <input type='text' id="search-field" class="col-span-8 offset-3 md:col-start-4 md:col-end-6"></input> -->
+    <input type='text' id="search-field" class="col-span-12 md:col-span-3"></input>
+    <button id="search-button" class="col-span-12 md:col-span-2">Search</button>
 </div>    
 
-
-<br>
 
 <hr>
 
 <br>
 
-    <div id="search-results" class="m-6"></div>
+    <div id="search-results"></div>
 
   </body>
 </html>
