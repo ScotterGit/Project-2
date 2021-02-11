@@ -66,3 +66,12 @@ hr {
 	padding: 10px;
 	height: 400px;
 }
+
+.jumbotron {
+	background-image: linear-gradient(
+		0deg,
+		#3eecac 0%,
+		#ee74e1 50%,
+		#fcba03 100%
+	);
+}
