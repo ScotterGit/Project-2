@@ -26,7 +26,7 @@ $('#search-button').on('click', () => {
         resultsHtml = resultsHtml + imgHtml;
        }
 
-       console.log(resultsHtml);
+      //  console.log(resultsHtml);
 
       $('#search-results').html(resultsHtml);
 

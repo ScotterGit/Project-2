@@ -1,6 +1,6 @@
 body {
-	background-color: rgb(29, 29, 29);
-	border-color: rgb(29, 29, 29);
+	background-color: rgb(14, 14, 14);
+	border-color: rgb(14, 14, 14);
 }
 
 hr {
@@ -42,7 +42,7 @@ hr {
 }
 
 #search-button:hover {
-	background-color: rgb(77, 247, 238);
+	background-color: rgb(247, 77, 230);
 	color: black;
 }
 
