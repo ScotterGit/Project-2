@@ -1,7 +1,14 @@
 $( document ).ready(function() {
   console.log( "ready!" );
 
+  $("#search-field").keypress(function(event) { 
+    if (event.keyCode === 13) { 
+        $("#search-button").click(); 
+    } 
+}); 
+
 $('#search-button').on('click', () => {
+  // alert("Button clicked"); 
 
   let searchTerm = $('#search-field').val();
 
@@ -23,7 +30,7 @@ $('#search-button').on('click', () => {
 
       $('#search-results').html(resultsHtml);
 
-
+        
 });
 })
 });
