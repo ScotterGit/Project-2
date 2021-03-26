@@ -9,10 +9,6 @@ hr {
 	border: none;
 }
 
-/* @media (max-width: @screen-sm){
-    .container{font-size: 2px;}
-} */
-
 .search > * {
 	margin: 8px;
 	border-radius: 4px;
@@ -46,11 +42,6 @@ hr {
 	color: black;
 }
 
-/* #search-results {
-	display: flex;
-	flex-wrap: wrap;
-} */
-
 #search-results {
 	display: flex;
 	flex-direction: row;
@@ -67,20 +58,6 @@ hr {
 	height: 400px;
 }
 
-/* .jumbotron {
-	background-image: linear-gradient(
-		0deg,
-		#3eecac 0%,
-		#ee74e1 50%,
-		#fcba03 100%
-	);
-} */
-
-/* .jumbotron {
-	background-image: url("https://media.giphy.com/media/l2v1YQMVH8rEAstMyK/giphy.gif");
-	width: 100%;
-} */
-
 .jumbotron {
 	background: url("https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif")
 		no-repeat center center fixed;
@@ -90,7 +67,3 @@ hr {
 	background-size: cover;
 	height: auto;
 }
-
-/* .display-3 {
-	color: white;
-} */

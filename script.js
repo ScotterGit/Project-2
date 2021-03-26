@@ -1,11 +1,15 @@
+// activate search on Enter key press*******************************
 $( document ).ready(function() {
   console.log( "ready!" );
 
   $("#search-field").keypress(function(event) { 
     if (event.keyCode === 13) { 
         $("#search-button").click(); 
+        
     } 
 }); 
+
+// Giphy API**********************************************************
 
 $('#search-button').on('click', () => {
   // alert("Button clicked"); 
